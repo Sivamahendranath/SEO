@@ -240,13 +240,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit team for the amazing framework
 - Open source community for inspiration
 
-## 📞 Support
-
-For support, please:
-1. Check the troubleshooting section above
-2. Review the [Gemini API documentation](https://ai.google.com/dev/api/rest)
-3. Open an issue on GitHub
-4. Contact the maintainers
 
 ---
 
