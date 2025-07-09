@@ -1,0 +1,62 @@
+🔑 Gemini API Key Setup Guide
+This guide helps you create and use a Gemini API key to access Google's Generative AI services, such as Gemini 1.5 models.
+
+📌 Prerequisites
+A Google account
+
+Access to Google AI Studio
+
+Basic knowledge of Python (if you’re using the API with Python)
+
+🚀 Steps to Create a Gemini API Key
+1. Go to Google AI Studio
+Visit:
+👉 https://aistudio.google.com/app
+
+This is where you can experiment with Gemini models and create API keys.
+
+2. Sign In with Google
+Use your Google account to log in.
+
+3. Create or Open a Project
+Click on your profile icon (top-right)
+
+Choose "API keys" from the menu
+
+4. Generate a New API Key
+Click "Create API Key"
+
+A new key will be generated (copy it!)
+
+Store it securely (do not share it publicly)
+
+🛡️ Important Notes
+Keep your API key private
+
+You can regenerate or delete keys anytime
+
+Google may charge for usage, depending on quotas and tiers (check your plan)
+
+🧪 Using the API Key in Python
+Install the official library (if available) or use HTTP requests:
+
+pip install google-generativeai
+🔧 Example Setup in Python:
+python
+
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+
+model = genai.GenerativeModel("gemini-pro")
+response = model.generate_content("Tell me a joke")
+print(response.text)
+📚 Resources
+Google AI Studio
+
+Gemini API Documentation
+
+Python SDK Guide
+
+✅ Done!
+You’re now ready to use Gemini’s powerful AI models via API. Enjoy building!
